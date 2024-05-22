@@ -1,0 +1,14 @@
+{# templates/admin_user/edit.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit User{% endblock %}
+
+{% block body %}
+    <h1>Edit User</h1>
+
+    <form method="post">
+        {{ form(form) }}
+        <button type="submit">Update</button>
+    </form>
+{% endblock %}
